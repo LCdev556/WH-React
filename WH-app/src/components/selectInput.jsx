@@ -1,37 +1,3 @@
-// export default function SelectInput({
-//   id,
-//   name,
-//   value,
-//   onChange,
-//   label,
-//   placeholder,
-//   options,
-//   valueKey = "value",
-//   labelKey = "label",
-//   error,       
-// }) {
-//   return (
-//     <div className="mb-3">
-//       <label htmlFor={id} className="form-label">{label}</label>
-//       <select
-//         className={`form-select ${error ? 'is-invalid' : ''}`}
-//         id={id}
-//         name={name}
-//         value={value}
-//         onChange={onChange}
-//       >
-//         <option value="">{placeholder}</option>
-//         {options.map((option) => (
-//           <option key={option[valueKey]} value={option[valueKey]}>
-//             {option[labelKey]}
-//           </option>
-//         ))}
-//       </select>
-//       {error && <div className="invalid-feedback">{error}</div>}
-//     </div>
-//   );
-// }
-
 import React from 'react';
 import PropTypes from 'prop-types';
 

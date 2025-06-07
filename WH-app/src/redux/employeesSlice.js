@@ -1,27 +1,3 @@
-// import { createSlice } from '@reduxjs/toolkit';
-
-// const initialState = {
-//   employees: [],
-//   loading: false,
-//   error: null,
-// };
-
-// const employeesSlice = createSlice({
-//   name: 'employees',
-//   initialState,
-//   reducers: {
-//     setEmployees(state, action) {
-//       state.employees = action.payload;
-//     },
-//     addEmployee(state, action) {
-//       state.employees.push(action.payload);
-//     },
-//   },
-// });
-
-// export const { setEmployees, addEmployee } = employeesSlice.actions;
-// export default employeesSlice.reducer;
-
 import { createSlice } from '@reduxjs/toolkit';
 
 /**

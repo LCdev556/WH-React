@@ -1,20 +1,3 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// import '../style/layout.scss';
-
-// export default function Layout({ children }) {
-//   return (
-//     <div>
-//       <header style={{ padding: '1rem', background: '#007bff', color: 'white' }}>
-//        <Link to="/" className="text-decoration-none layout-title "><h1>HRnet</h1></Link> 
-//       </header>
-//       <main style={{ padding: '1rem' }}>
-//         {children}
-//       </main>
-//     </div>
-//   );
-// }
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';

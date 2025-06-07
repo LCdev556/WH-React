@@ -1,21 +1,3 @@
-// export default function FormInput({ type, id, name, value, onChange, label, error }) {
-//   return (
-//     <div className="mb-3">
-//       <label htmlFor={id} className="form-label">{label}</label>
-//       <input
-//         type={type}
-//         className={`form-control ${error ? 'is-invalid' : ''}`}
-//         id={id}
-//         name={name}
-//         value={value}
-//         onChange={onChange}
-//         aria-describedby={`${id}Feedback`}
-//       />
-//       {error && <div id={`${id}Feedback`} className="invalid-feedback">{error}</div>}
-//     </div>
-//   );
-// }
-
 import PropTypes from 'prop-types';
 
 /**
