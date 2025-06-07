@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 40% !important;
+  flex-direction: column;
+}
+
+.formTitle {
+  display: flex;
+  justify-content: center;
+}
+
+legend {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.address-container {
+  border-color: black !important;
+  border-width: 2px !important;
+  padding: 3px !important;
+}
+
+.employeeForm-link {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=createmployeeform.css.map */
