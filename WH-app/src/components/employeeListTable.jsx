@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
-import SelectInput from './selectInput';
+//import SelectInput from './selectInput'; // SelectInput provenant du dossier components
+import SelectInput from '@lcdev556/react-select-input'; //SelectInput issu d'un import npm
 import { useSelector } from 'react-redux';
 
 /**
