@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import FormInput from './formInput';
-import SelectInput from './selectInput';
+//import SelectInput from './selectInput'; // SelectInput provenant du dossier components
 import DatePickerInput from './datePickerInput';
 import Modal from './modal';
+import SelectInput from 'react-custom-select-input'; //SelectInput issu d'un import npm
 import { useDispatch } from 'react-redux';
 import { addEmployee } from '../redux/employeesSlice';
 import '../style/createmployeeform.scss';

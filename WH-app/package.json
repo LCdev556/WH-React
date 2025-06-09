@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lcdev556/react-select-input": "^1.0.2",
     "@popperjs/core": "^2.11.8",
     "@reduxjs/toolkit": "^2.8.2",
     "bootstrap": "^5.3.6",
